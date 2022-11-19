@@ -23,23 +23,3 @@ header{
     font-size: 40px;
     font-style: italic;
 }
-
-.scoreboard{
-    background-color: rgb(243, 148, 148);
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#scoreboard-user-name{
-    background-color: black;
-    color: aliceblue;
-    font-size: 30px;
-}
-
-#scoreboard-computer-name{
-    background-color: black;
-    color: aliceblue;
-    font-size: 30px;
-}
