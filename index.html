@@ -13,15 +13,23 @@
     <header class="header">
         <p id="final_result"></p>
     </header>
-    <section>
-        <select name="" id="mySelect" onchange="myFunction()">
-            <option value=""></option>
-            <option value="rock">rock</option>
-            <option value="paper">paper</option>
-            <option value="Scissors">Scissors</option>
-        </select>
-        <p id="user-choice"></p>
-        <p id="computer-choice"></p>
+    <section id="score-section" class="sections">
+        <div id="user-score">
+            <div id="user-score-text" class="score-style">
+                User score : 
+            </div>
+            <div id="user-score-box" class="score-box-style">
+                <p id="result-user"></p>  
+            </div>
+        </div>
+        <div id="computer-score" >
+            <div id="computer-score-text" class="score-style">
+                Computer score :
+            </div>
+            <div id="computer-score-box" class="score-box-style">
+                <p id="result-computer"></p>
+            </div>
+        </div>
     </section>
     <script src="RPS.js"></script>
 </body>
