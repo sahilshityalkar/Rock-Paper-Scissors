@@ -40,7 +40,24 @@
             <button class="all-buttons">PAPER</button>
             <button class="all-buttons">SCISSORS</button>
         </div>
-
+        <select id="mySelect" onchange="myfunction(),getComputerChoice()" >
+            <option value="">select your choice</option>
+            <option value="rock">rock</option>
+            <option value="paper">paper</option>
+            <option value="scissors">scissors</option>
+        </select>
+        <section id="select-value-section" class="sections">
+        <div class="select-choice-result">
+            <p>user select :</p><p id="user-choice" ></p>
+        </div>
+        <div class="select-choice-result" >
+            <p>computer select :</p><p id="computer-choice" ></p>
+        </div>
+        </section>
+        <section id="result-section" class="sections">  
+            <div id="result-border"><p id="result"></p></div>
+        </section>
+        <p id="result"></p>
     </section>
     <script src="RPS.js"></script>
 </body>
