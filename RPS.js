@@ -43,4 +43,21 @@ function getComputerChoice() {
         default:
             break;
     }
+    if (playerscore == 5) {
+        document.getElementById("final_result").innerHTML = "FINAL RESULT : YOU WIN THE MATCH"
+        // location.reload();
+        playerscore = 0;
+        computerscore = 0;
+    } else if(computerscore == 5){
+        document.getElementById("final_result").innerHTML = "FINAL RESULT : COMPUTER WIN THE MATCH"
+        // location.reload();
+        playerscore = 0;
+        computerscore = 0;
+    }else if(computerscore === 5 || playerscore === 5){
+        document.getElementById("final_result").innerHTML = "DRAW  THE MATCH"
+        // location.reload();
+    }
+    else if(playerscore === 0 || computerscore === 0)(
+        document.getElementById("final_result").innerHTML = "START THE MATCH"
+    )
 }
