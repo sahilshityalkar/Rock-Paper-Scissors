@@ -67,3 +67,33 @@ function getComputerChoice() {
     playGround = playRound();
     return computerchoice;
 }
+let playGround;
+function playRound() {
+    if (playerchoice === computerchoice) {
+        return 3;
+    }
+    else if (playerchoice == "rock") {
+        if (computerchoice == "paper") {
+            return 1;
+        }
+        else {
+            return 2;
+        }
+    }
+    else if (playerchoice == "scissors") {
+        if (computerchoice == "rock") {
+            return 1;
+        }
+        else {
+            return 2;
+        }
+    }
+    else if (playerchoice == "paper") {
+        if (computerchoice == "scissors") {
+            return 1;
+        }
+        else {
+            return 2;
+        }
+    }
+}
