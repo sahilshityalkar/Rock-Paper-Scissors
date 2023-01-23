@@ -32,3 +32,20 @@
     justify-content: center;
     align-items: center;
 }
+.score-style{
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+.score-box-style{
+    border: 10px;
+    border: solid;
+    border-color: rgb(196, 196, 196);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font: 500;
+    font-size: larger;
+}
