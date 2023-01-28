@@ -64,3 +64,15 @@
     /* color: white; */
     color: black;
 }
+
+#choice-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: aliceblue; */
+}
+
+#user-choice-section{
+    color: aliceblue;
+    height: 300px;
+}
