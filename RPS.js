@@ -71,12 +71,12 @@ function getComputerChoice() {
     else if(playerscore === 0 || computerscore === 0)(
         document.getElementById("final_result").innerHTML = "START THE MATCH"
     )
-
     document.getElementById("computer-choice").innerHTML = ""+ computerchoice;
     document.getElementById("result-user").innerHTML = + playerscore;
     document.getElementById("result-computer").innerHTML = + computerscore;
     playGround = playRound();
     return computerchoice;
+
 }
 let playGround;
 function playRound() {
