@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Rock-paper-scissors</title>
+    <title>Rock Paper Scissors</title>  
 </head>
 <body>
     <header class="header">
         <p id="final_result"></p>
     </header>
-    <section id="score-section" class="sections">
-        <div id="user-score">
-            <div id="user-score-text" class="score-style">
-                User score : 
+    <div>
+        <section id="score-section" class="sections">
+            <div id="user-score">
+                <div id="user-score-text" class="score-style">
+                    User score : 
+                </div>
+                <div id="user-score-box" class="score-box-style">
+                    <p id="result-user"></p>  
+                </div>
             </div>
-            <div id="user-score-box" class="score-box-style">
-                <p id="result-user"></p>  
+            <div id="computer-score" >
+                <div id="computer-score-text" class="score-style">
+                    Computer score :
+                </div>
+                <div id="computer-score-box" class="score-box-style">
+                    <p id="result-computer"></p>
+                </div>
             </div>
-        </div>
-        <div id="computer-score" >
-            <div id="computer-score-text" class="score-style">
-                Computer score :
+        </section>
+        <section class="sections" id="user-choice-section">
+            <div id="choice-text">
+                <p>Select Your Choice To Start A Match</p>
             </div>
-            <div id="computer-score-box" class="score-box-style">
-                <p id="result-computer"></p>
+            <div id="choice-buttons">
+                <button class="all-buttons" onclick="rockButton(),getComputerChoice()">ROCK</button>
+                <button class="all-buttons" onclick="paperButton(),getComputerChoice()">PAPER</button>
+                <button class="all-buttons" onclick="scissorsButton(),getComputerChoice()">SCISSORS</button>
             </div>
-        </div>
-    </section>
-    <section class="sections" id="user-choice-section">
-        <div id="choice-text">
-            <p>Select Your Choice To Start A Match</p>
-        </div>
-        <div id="choice-buttons">
-            <button class="all-buttons">ROCK</button>
-            <button class="all-buttons">PAPER</button>
-            <button class="all-buttons">SCISSORS</button>
-        </div>
-    </section>
+        </section>
         <!-- <select id="mySelect" onchange="myfunction(),getComputerChoice()" >
             <option value="">select your choice</option>
             <option value="rock">rock</option>
