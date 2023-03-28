@@ -1,14 +1,25 @@
-// console.log("hello world");
-//make a function to return a player selection choice
-let playerChoice;
-let playerSelection = document.getElementById("myselect");
+let playerchoice;
 
+// let playerSelection = document.getElementById("mySelect");
 
-function myFunction(){
-    playerChoice = playerSelection.value;
-    document.getElementById("user-choice").innerHTML = "" + playerChoice;
-    
+// function myfunction() {
+//     playerchoice = playerSelection.value;
+//     document.getElementById("user-choice").innerHTML = ""+ playerchoice;
+// }
+
+function rockButton(){
+    playerchoice = "rock"
+    document.getElementById("user-choice").innerHTML = ""+ playerchoice;
 }
+function paperButton(){
+    playerchoice = "paper"
+    document.getElementById("user-choice").innerHTML = ""+ playerchoice;
+}
+function scissorsButton(){
+    playerchoice = "scissors"
+    document.getElementById("user-choice").innerHTML = ""+ playerchoice;
+}
+
 let computerchoice;
 let playerscore = 0;
 let computerscore = 0;
